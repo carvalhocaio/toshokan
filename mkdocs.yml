@@ -23,7 +23,7 @@ theme:
         name: Switch to light mode
 
   font:
-    text: Lexend
+    text: Mulish
     code: JetBrains Mono
 
   language: pt-BR
@@ -94,5 +94,7 @@ markdown_extensions:
 
 nav:
   - index.md 
-  - About:
-    - about/index.md
+  - Data Pipelines:
+    - data_pipelines/index.md
+    - Pocket Reference:
+      - Introdução a Pipelines de Dados: data_pipelines/pocket_reference/01-introduction-to-data-pipelines.md
