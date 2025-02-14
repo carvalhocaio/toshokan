@@ -98,3 +98,4 @@ nav:
     - data_pipelines/index.md
     - Pocket Reference:
       - Introdução a Pipelines de Dados: data_pipelines/pocket_reference/01-introduction-to-data-pipelines.md
+      - Uma Infraestrutura de Dados Moderna: data_pipelines/pocket_reference/02-a-modern-data-infrastructure.md
