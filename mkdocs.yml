@@ -1,8 +1,8 @@
 site_name: Toshokan
 site_url: https://example.com
 
-repo_name: squidfunk/mkdocs-material
-repo_url: https://github.com/squidfunk/mkdocs-material
+repo_name: carvalhocaio/toshokan
+repo_url: https://github.com/carvalhocaio/toshokan
 
 theme:
   name: material

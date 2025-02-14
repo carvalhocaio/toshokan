@@ -3,3 +3,6 @@ run:
 	
 build:
 	mkdocs build
+
+deploy:
+	mkdocs gh-deploy --force
