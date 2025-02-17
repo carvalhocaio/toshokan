@@ -8,13 +8,11 @@
       
       
       
-        <link rel="canonical" href="https://example.com/data_pipelines/pocket_reference/02-a-modern-data-infrastructure/">
+        <link rel="canonical" href="https://example.com/data_pipelines/pocket_reference/03-common-data-pipeline-patterns/">
       
       
-        <link rel="prev" href="../01-introduction-to-data-pipelines/">
+        <link rel="prev" href="../02-a-modern-data-infrastructure/">
       
-      
-        <link rel="next" href="../03-common-data-pipeline-patterns/">
       
       
       <link rel="icon" href="../../../assets/images/favicon.png">
@@ -22,7 +20,7 @@
     
     
       
-        <title>Uma Infraestrutura de Dados Moderna - Toshokan</title>
+        <title>Padrões Comuns de Pipeline de Dados - Toshokan</title>
       
     
     
@@ -74,7 +72,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#uma-infraestrutura-de-dados-moderna" class="md-skip">
+        <a href="#padroes-comuns-de-pipeline-de-dados" class="md-skip">
           Pular para conteúdo
         </a>
       
@@ -108,7 +106,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Uma Infraestrutura de Dados Moderna
+              Padrões Comuns de Pipeline de Dados
             
           </span>
         </div>
@@ -459,6 +457,28 @@
                 
   
   
+  
+  
+    <li class="md-nav__item">
+      <a href="../02-a-modern-data-infrastructure/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Uma Infraestrutura de Dados Moderna
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
     
   
   
@@ -475,7 +495,7 @@
           
   
   <span class="md-ellipsis">
-    Uma Infraestrutura de Dados Moderna
+    Padrões Comuns de Pipeline de Dados
     
   </span>
   
@@ -487,7 +507,7 @@
         
   
   <span class="md-ellipsis">
-    Uma Infraestrutura de Dados Moderna
+    Padrões Comuns de Pipeline de Dados
     
   </span>
   
@@ -510,99 +530,72 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#diversidade-de-fontes-de-dados" class="md-nav__link">
+  <a href="#etl-e-elt" class="md-nav__link">
     <span class="md-ellipsis">
-      Diversidade de Fontes de Dados
+      ETL e ELT
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#propriedade-do-sistema-de-origem" class="md-nav__link">
+  <a href="#a-emergencia-do-elt-sobre-o-etl" class="md-nav__link">
     <span class="md-ellipsis">
-      Propriedade do Sistema de Origem
+      A Emergência do ELT sobre o ETL
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#interface-de-ingestao-e-estrutura-de-dados" class="md-nav__link">
+  <a href="#subpadrao-etlt" class="md-nav__link">
     <span class="md-ellipsis">
-      Interface de Ingestão e Estrutura de Dados
+      Subpadrão EtLT
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#volume-de-dados" class="md-nav__link">
+  <a href="#elt-para-analise-de-dados" class="md-nav__link">
     <span class="md-ellipsis">
-      Volume de Dados
+      ELT para Análise de Dados
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#limpeza-e-validade-dos-dados" class="md-nav__link">
+  <a href="#elt-para-ciencia-de-dados" class="md-nav__link">
     <span class="md-ellipsis">
-      Limpeza e Validade dos Dados
+      ELT para Ciência de Dados
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#latencia-e-largura-de-banda-do-sistema-de-origem" class="md-nav__link">
+  <a href="#elt-para-produtos-de-dados-e-aprendizado-de-maquina" class="md-nav__link">
     <span class="md-ellipsis">
-      Latência e Largura de Banda do Sistema de Origem
+      ELT para Produtos de Dados e Aprendizado de Máquina
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#data-warehouses-na-nuvem-e-data-lakes" class="md-nav__link">
+  <a href="#etapas-em-um-pipeline-de-aprendizado-de-maquina" class="md-nav__link">
     <span class="md-ellipsis">
-      Data Warehouses na Nuvem e Data Lakes
+      Etapas em um Pipeline de Aprendizado de Máquina
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#ferramentas-de-transformacao-e-modelagem-de-dados" class="md-nav__link">
+  <a href="#incorporar-feedback-no-pipeline" class="md-nav__link">
     <span class="md-ellipsis">
-      Ferramentas de Transformação e Modelagem de Dados
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#plataformas-de-orquestracao-de-workflows" class="md-nav__link">
-    <span class="md-ellipsis">
-      Plataformas de Orquestração de Workflows
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#grafos-aciclicos-dirigidos-directed-acyclic-graphs" class="md-nav__link">
-    <span class="md-ellipsis">
-      Grafos Acíclicos Dirigidos (Directed Acyclic Graphs)
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#personalizando-sua-infraestrutura-de-dados" class="md-nav__link">
-    <span class="md-ellipsis">
-      Personalizando Sua Infraestrutura de Dados
+      Incorporar Feedback no Pipeline
     </span>
   </a>
   
@@ -612,28 +605,6 @@
   
 </nav>
       
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../03-common-data-pipeline-patterns/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Padrões Comuns de Pipeline de Dados
-    
-  </span>
-  
-
-      </a>
     </li>
   
 
@@ -681,99 +652,72 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#diversidade-de-fontes-de-dados" class="md-nav__link">
+  <a href="#etl-e-elt" class="md-nav__link">
     <span class="md-ellipsis">
-      Diversidade de Fontes de Dados
+      ETL e ELT
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#propriedade-do-sistema-de-origem" class="md-nav__link">
+  <a href="#a-emergencia-do-elt-sobre-o-etl" class="md-nav__link">
     <span class="md-ellipsis">
-      Propriedade do Sistema de Origem
+      A Emergência do ELT sobre o ETL
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#interface-de-ingestao-e-estrutura-de-dados" class="md-nav__link">
+  <a href="#subpadrao-etlt" class="md-nav__link">
     <span class="md-ellipsis">
-      Interface de Ingestão e Estrutura de Dados
+      Subpadrão EtLT
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#volume-de-dados" class="md-nav__link">
+  <a href="#elt-para-analise-de-dados" class="md-nav__link">
     <span class="md-ellipsis">
-      Volume de Dados
+      ELT para Análise de Dados
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#limpeza-e-validade-dos-dados" class="md-nav__link">
+  <a href="#elt-para-ciencia-de-dados" class="md-nav__link">
     <span class="md-ellipsis">
-      Limpeza e Validade dos Dados
+      ELT para Ciência de Dados
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#latencia-e-largura-de-banda-do-sistema-de-origem" class="md-nav__link">
+  <a href="#elt-para-produtos-de-dados-e-aprendizado-de-maquina" class="md-nav__link">
     <span class="md-ellipsis">
-      Latência e Largura de Banda do Sistema de Origem
+      ELT para Produtos de Dados e Aprendizado de Máquina
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#data-warehouses-na-nuvem-e-data-lakes" class="md-nav__link">
+  <a href="#etapas-em-um-pipeline-de-aprendizado-de-maquina" class="md-nav__link">
     <span class="md-ellipsis">
-      Data Warehouses na Nuvem e Data Lakes
+      Etapas em um Pipeline de Aprendizado de Máquina
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#ferramentas-de-transformacao-e-modelagem-de-dados" class="md-nav__link">
+  <a href="#incorporar-feedback-no-pipeline" class="md-nav__link">
     <span class="md-ellipsis">
-      Ferramentas de Transformação e Modelagem de Dados
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#plataformas-de-orquestracao-de-workflows" class="md-nav__link">
-    <span class="md-ellipsis">
-      Plataformas de Orquestração de Workflows
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#grafos-aciclicos-dirigidos-directed-acyclic-graphs" class="md-nav__link">
-    <span class="md-ellipsis">
-      Grafos Acíclicos Dirigidos (Directed Acyclic Graphs)
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#personalizando-sua-infraestrutura-de-dados" class="md-nav__link">
-    <span class="md-ellipsis">
-      Personalizando Sua Infraestrutura de Dados
+      Incorporar Feedback no Pipeline
     </span>
   </a>
   
@@ -798,208 +742,353 @@
   
 
 
-<h1 id="uma-infraestrutura-de-dados-moderna">Uma Infraestrutura de Dados Moderna<a class="headerlink" href="#uma-infraestrutura-de-dados-moderna" title="Permanent link">&para;</a></h1>
-<p>Antes de decidir sobre produtos e design para construir pipelines, vale a pena entender o que compõe
-uma pilha de dados moderna. Como na maioria das coisas em tecnologia, não há uma única maneira
-correta de projetar seu ecossistema de análise ou escolher produtos e
-fornecedores. Independentemente disso, há algumas necessidades e conceitos chave que se tornaram
-padrão na indústria e estabelecem o cenário para as melhores práticas na implementação de pipelines.</p>
-<h2 id="diversidade-de-fontes-de-dados">Diversidade de Fontes de Dados<a class="headerlink" href="#diversidade-de-fontes-de-dados" title="Permanent link">&para;</a></h2>
-<p>A maioria das organizações possui dezenas, se não centenas, de fontes de dados que alimentam seus
-esforços analíticos. As fontes de dados variam em muitas dimensões abordadas nesta seção.</p>
-<p><strong>Os principais componentes de uma infraestrutura de dados moderna</strong></p>
+<h1 id="padroes-comuns-de-pipeline-de-dados">Padrões Comuns de Pipeline de Dados<a class="headerlink" href="#padroes-comuns-de-pipeline-de-dados" title="Permanent link">&para;</a></h1>
+<p>Mesmo para engenheiros de dados experientes, projetar um novo pipeline de dados é uma nova jornada a
+cada vez. Diferentes fontes de dados e infraestruturas apresentam tanto desafios quanto
+oportunidades. Além disso, os pipelines são construídos com diferentes objetivos e restrições. Os
+dados precisam ser processados em quase tempo real? Podem ser atualizados diariamente? Serão
+modelados para uso em um dashboard ou como entrada para um modelo de aprendizado de máquina?</p>
+<p>Felizmente, existem alguns padrões comuns em pipelines de dados que se mostraram bem-sucedidos e são
+extensíveis para muitos casos de uso.</p>
+<h2 id="etl-e-elt">ETL e ELT<a class="headerlink" href="#etl-e-elt" title="Permanent link">&para;</a></h2>
+<p>Talvez não haja padrão mais conhecido do que ETL e seu irmão mais moderno, ELT. Ambos são padrões
+amplamente utilizados em data warehousing e business intelligence. Nos últimos anos, eles inspiraram
+padrões de pipeline para ciência de dados e modelos de aprendizado de máquina em produção. Eles são
+tão conhecidos que muitas pessoas usam esses termos como sinônimos de pipelines de dados, em vez de
+padrões que muitos pipelines seguem.</p>
+<p>Dadas suas raízes em data warehousing, é mais fácil descrevê-los nesse contexto, que é o que esta
+seção faz.</p>
+<p>Ambos os padrões são abordagens de processamento de dados usadas para alimentar dados em um data
+warehouse e torná-los úteis para analistas e ferramentas de relatórios. A diferença entre os dois é
+a ordem de suas duas últimas etapas (transformar e carregar), mas as implicações de design ao
+escolher entre eles são substanciais.</p>
+<p>A etapa de <em>extração</em> coleta dados de várias fontes em preparação para carregamento e transformação.</p>
+<p>A etapa de <em>carregamento</em> traz os dados brutos (no caso de ELT) ou os dados totalmente transformados
+(no caso de ETL) para o destino final. De qualquer forma, o resultado final é carregar dados no data
+warehouse, data lake ou outro destino.</p>
+<p>A etapa de <em>transformação</em> é onde os dados brutos de cada sistema de origem são combinados e
+formatados de maneira que sejam úteis para analistas, ferramentas de visualização ou qualquer caso
+de uso que seu pipeline esteja atendendo. Há muito nesta etapa, independentemente de você projetar
+seu processo como ETL ou ELT.</p>
+<h2 id="a-emergencia-do-elt-sobre-o-etl">A Emergência do ELT sobre o ETL<a class="headerlink" href="#a-emergencia-do-elt-sobre-o-etl" title="Permanent link">&para;</a></h2>
+<p>ETL foi o padrão ouro dos padrões de pipeline de dados por décadas. Embora ainda seja usado, mais
+recentemente o ELT emergiu como o padrão preferido. Por quê? Antes da nova geração de data
+warehouses, principalmente na nuvem, as equipes de dados não tinham acesso a data warehouses com a
+capacidade de armazenamento ou computação necessária para lidar com o carregamento de grandes
+quantidades de dados brutos e transformá-los em modelos de dados utilizáveis. Os bancos de dados
+eram baseados em linhas, funcionavam bem para casos de uso transacionais, mas não para consultas em
+grande volume, comuns em análises. Assim, os dados eram primeiro extraídos dos sistemas de origem e
+depois transformados em um sistema separado antes de serem carregados em um warehouse para qualquer
+modelagem final de dados e consulta por analistas e ferramentas de visualização.</p>
+<p>A maioria dos data warehouses de hoje são construídos em bancos de dados colunar altamente
+escaláveis que podem armazenar e executar transformações em grandes conjuntos de dados de maneira
+econômica. Graças à eficiência de I/O de um banco de dados colunar, compressão de dados e a
+capacidade de distribuir dados e consultas em muitos nós que podem trabalhar juntos para processar
+dados, as coisas mudaram. Agora é melhor focar em extrair dados e carregá-los em um data warehouse
+onde você pode então realizar as transformações necessárias para completar o pipeline.</p>
+<p>O impacto da diferença entre data warehouses baseados em linhas e colunas não pode ser subestimado.</p>
+<p>Abaixo, ilustra um exemplo de como os registros são armazenados em disco em um banco de dados
+baseado em linhas, como MySQL ou Postgres. Cada linha do banco de dados é armazenada junta no
+disco, em um ou mais blocos dependendo do tamanho de cada registro. Se um registro for menor que um
+único bloco ou não for divisível pelo tamanho do bloco, ele deixa algum espaço em disco não
+utilizado.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: right;">OrderId</th>
+<th style="text-align: right;">CustomerId</th>
+<th>ShippingCountry</th>
+<th style="text-align: right;">OrderTotal</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1258</td>
+<td>US</td>
+<td style="text-align: right;">55.25</td>
+</tr>
+<tr>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">5698</td>
+<td>AUS</td>
+<td style="text-align: right;">125.36</td>
+</tr>
+<tr>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">2265</td>
+<td>US</td>
+<td style="text-align: right;">776.95</td>
+</tr>
+<tr>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">8954</td>
+<td>CA</td>
+<td style="text-align: right;">32.16</td>
+</tr>
+<tr>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td></td>
+<td style="text-align: right;"></td>
+</tr>
+<tr>
+<td style="text-align: right;">Bloco 1</td>
+<td style="text-align: right;">1, 1258, US, 55.25</td>
+<td></td>
+<td style="text-align: right;"></td>
+</tr>
+<tr>
+<td style="text-align: right;">Bloco 2</td>
+<td style="text-align: right;">2, 5698, AUS, 125.36</td>
+<td></td>
+<td style="text-align: right;"></td>
+</tr>
+<tr>
+<td style="text-align: right;">Bloco 3</td>
+<td style="text-align: right;">3, 2265, US, 776.95</td>
+<td></td>
+<td style="text-align: right;"></td>
+</tr>
+<tr>
+<td style="text-align: right;">Bloco 4</td>
+<td style="text-align: right;">4, 8954, CA, 32.16</td>
+<td></td>
+<td style="text-align: right;"></td>
+</tr>
+</tbody>
+</table>
+<p><em>Uma tabela armazenada em um banco de dados de armazenamento baseado em linhas. Cada bloco contém</em>
+<em>um registro (linha) da tabela.</em></p>
+<p>Considere um caso de uso de banco de dados de processamento de transações online (OLTP), como um
+aplicativo web de e-commerce que utiliza um banco de dados MySQL para armazenamento. O aplicativo
+web solicita leituras e gravações do banco de dados MySQL, frequentemente envolvendo múltiplos
+valores de cada registro, como os detalhes de um pedido em uma página de confirmação de
+pedido. Também é provável que consulte ou atualize apenas um pedido por vez. Portanto, o
+armazenamento baseado em linhas é ideal, pois os dados que o aplicativo precisa estão armazenados
+em proximidade no disco, e a quantidade de dados consultada de uma vez é pequena.</p>
+<p>O uso ineficiente do espaço em disco devido aos registros deixarem espaço vazio nos blocos é uma
+troca razoável nesse caso, pois a velocidade de leitura e gravação de registros únicos
+frequentemente é o mais importante. No entanto, em análises a situação é inversa. Em vez da
+necessidade de ler e escrever pequenas quantidades de dados frequentemente, frequentemente lemos e
+escrevemos grandes quantidades de dados com pouca frequência. Além disso, é menos provável que uma
+consulta analítica exija muitas, ou todas, as colunas de uma tabela, mas sim uma única coluna de uma
+tabela com muitas colunas.</p>
+<p>Por exemplo, considere a tabela de pedidos em nosso aplicativo de e-commerce funcional. Entre outras
+coisas, ela contém o valor em dólares do pedido, bem como o país para o qual está sendo enviado. Ao
+contrário do aplicativo web, que trabalha com pedidos um de cada vez, um analista usando o data
+warehouse desejará analisar os dados do warehouse que possuem colunas adicionais que contêm valores
+de várias tabelas em nosso banco de dados MySQL. Por exemplo, pode conter informações sobre o
+cliente que fez o pedido. Talvez o analista queira somar todos os pedidos feitos por clientes com
+contas ativas atualmente. Tal consulta pode envolver milhões de registros, mas apenas ler de duas
+colunas, OrderTotal e CustomerActive. Afinal, a análise não é sobre criar ou alterar dados (como no
+OLTP), mas sim a derivação de métricas e a compreensão dos dados.</p>
+<p>Abaixo, ilustra um banco de dados colunar, como Snowflake ou Amazon Redshift, que armazena dados em
+blocos de disco por coluna em vez de linha. No nosso caso, a consulta escrita pelo analista só
+precisa acessar blocos que armazenam valores de OrderTotal e CustomerActive em vez de blocos que
+armazenam os registros baseados em linhas, como no banco de dados MySQL. Assim, há menos I/O de
+disco, bem como menos dados para carregar na memória para realizar o filtro e a soma exigidos pela
+consulta do analista. Um benefício final é a redução no armazenamento, graças ao fato de que os
+blocos podem ser totalmente utilizados e comprimidos de forma otimizada, já que o mesmo tipo de dado
+é armazenado em cada bloco em vez de múltiplos tipos que tendem a ocorrer em um único registro
+baseado em linhas.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: right;">OrderId</th>
+<th style="text-align: right;">CustomerId</th>
+<th>ShippingCountry</th>
+<th style="text-align: right;">OrderTotal</th>
+<th style="text-align: center;">CustomerActive</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1258</td>
+<td>US</td>
+<td style="text-align: right;">55.25</td>
+<td style="text-align: center;">TRUE</td>
+</tr>
+<tr>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">5698</td>
+<td>AUS</td>
+<td style="text-align: right;">125.36</td>
+<td style="text-align: center;">TRUE</td>
+</tr>
+<tr>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">2265</td>
+<td>US</td>
+<td style="text-align: right;">776.95</td>
+<td style="text-align: center;">TRUE</td>
+</tr>
+<tr>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">8954</td>
+<td>CA</td>
+<td style="text-align: right;">32.16</td>
+<td style="text-align: center;">FALSE</td>
+</tr>
+<tr>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td></td>
+<td style="text-align: right;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: right;">Bloco 1</td>
+<td style="text-align: right;">1, 2, 3, 4</td>
+<td></td>
+<td style="text-align: right;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: right;">Bloco 2</td>
+<td style="text-align: right;">1258, 5698, 2265, 8954</td>
+<td></td>
+<td style="text-align: right;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: right;">Bloco 3</td>
+<td style="text-align: right;">US, AUS, US, CA</td>
+<td></td>
+<td style="text-align: right;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: right;">Bloco 4</td>
+<td style="text-align: right;">55.25, 125.36, 776.95, 32.16</td>
+<td></td>
+<td style="text-align: right;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: right;">Bloco 5</td>
+<td style="text-align: right;">TRUE, TRUE, TRUE, FALSE</td>
+<td></td>
+<td style="text-align: right;"></td>
+<td style="text-align: center;"></td>
+</tr>
+</tbody>
+</table>
+<p><em>Uma tabela armazenada em um banco de dados de armazenamento baseado em colunas. Cada bloco de</em>
+<em>disco contém dados da mesma coluna. As duas colunas envolvidas em nossa consulta de exemplo estão</em>
+<em>destacadas. Apenas esses blocos precisam ser acessados para executar a consulta. Cada bloco</em>
+<em>contém dados do mesmo tipo, tornando a compressão otimizada.</em></p>
+<p>No geral, a emergência dos bancos de dados colunar significa que armazenar, transformar e consultar
+grandes conjuntos de dados é eficiente dentro de um data warehouse. Engenheiros de dados podem usar
+isso a seu favor construindo etapas de pipeline que se especializam em extrair e carregar dados em
+warehouses onde podem ser transformados, modelados e consultados por analistas e cientistas de dados
+que se sentem mais confortáveis dentro dos limites de um banco de dados. Como tal, o ELT assumiu
+como o padrão ideal para pipelines de data warehouse, bem como outros casos de uso em aprendizado de
+máquina e desenvolvimento de produtos de dados.</p>
+<h2 id="subpadrao-etlt">Subpadrão EtLT<a class="headerlink" href="#subpadrao-etlt" title="Permanent link">&para;</a></h2>
+<p>Quando o ELT emergiu como o padrão dominante, ficou claro que fazer algumas transformações após a
+extração, mas antes do carregamento, ainda era benéfico. No entanto, em vez de transformações
+envolvendo lógica de negócios ou modelagem de dados, esse tipo de transformação é mais limitado em
+escopo.</p>
+<p>Alguns exemplos do tipo de transformação que se encaixa no subpadrão EtLT incluem os seguintes:</p>
 <ul>
-<li>Data warehouses na nuvem e data lakes</li>
-<li>Ferramentas de ingestão de dados</li>
-<li>Diversidade de fontes de dados</li>
-<li>Plataformas de orquestração de workflows</li>
-<li>Ferramentas e frameworks de modelagem</li>
+<li>Remover duplicatas em uma tabela</li>
+<li>Analisar parâmetros de URL em componentes individuais</li>
+<li>Mascarar ou de outra forma ofuscar dados sensíveis</li>
 </ul>
-<h2 id="propriedade-do-sistema-de-origem">Propriedade do Sistema de Origem<a class="headerlink" href="#propriedade-do-sistema-de-origem" title="Permanent link">&para;</a></h2>
-<p>É comum para uma equipe de análise ingerir dados de sistemas de origem que são construídos e
-mantidos pela organização, bem como de ferramentas e fornecedores de terceiros. Por exemplo, uma
-empresa de e-commerce pode armazenar dados de seu carrinho de compras em um banco de dados
-PostgreSQL (também conhecido como Postgres) por trás de seu aplicativo web. Eles também podem usar
-uma ferramenta de análise web de terceiros, como o Google Analytics, para rastrear o uso em seu
-site. A combinação dessas duas fontes de dados é necessária para obter uma compreensão completa do
-comportamento do cliente até a compra. Assim, um pipeline de dados que termina com uma análise de
-tal comportamento começa com a ingestão de dados de ambas as fontes.</p>
-<p>Entender a propriedade dos sistemas de origem é importante por várias razões. Primeiro, para fontes
-de dados de terceiros, você provavelmente estará limitado quanto aos dados que pode acessar e como
-pode acessá-los. A maioria dos fornecedores disponibiliza uma API REST, mas poucos lhe darão acesso
-direto aos seus dados na forma de um banco de dados SQL. Ainda menos fornecerão muita personalização
-sobre quais dados você pode acessar e em que nível de granularidade.</p>
-<p>Sistemas construídos internamente apresentam à equipe de análise mais oportunidades de personalizar
-os dados disponíveis, bem como o método de acesso. No entanto, eles também apresentam outros
-desafios. Os sistemas foram construídos com consideração à ingestão de dados? Muitas vezes a
-resposta é não, o que tem implicações que variam desde a ingestão colocando uma carga não
-intencional no sistema até a incapacidade de carregar dados incrementalmente. Se você tiver sorte, a
-equipe de engenharia que possui o sistema de origem terá tempo e disposição para trabalhar com
-você, mas na realidade das restrições de recursos, você pode descobrir que não é muito diferente de
-trabalhar com um fornecedor externo.</p>
-<h2 id="interface-de-ingestao-e-estrutura-de-dados">Interface de Ingestão e Estrutura de Dados<a class="headerlink" href="#interface-de-ingestao-e-estrutura-de-dados" title="Permanent link">&para;</a></h2>
-<p>Independentemente de quem possui os dados de origem, como você os obtém e em que forma é a primeira
-coisa que um engenheiro de dados examinará ao construir uma nova ingestão de dados. Primeiro, qual
-é a interface para os dados? Alguns dos mais comuns incluem os seguintes:</p>
-<ul>
-<li>Um banco de dados por trás de um aplicativo, como um banco de dados Postgres ou MySQL</li>
-<li>Uma camada de abstração em cima de um sistema, como uma API REST</li>
-<li>Uma plataforma de processamento de streams, como o Apache Kafka</li>
-<li>Um sistema de arquivos de rede compartilhado ou bucket de armazenamento em nuvem contendo logs,
-arquivos CSV (valores separados por vírgula) e outros arquivos planos (flat files)</li>
-<li>Um data warehouse ou data lake</li>
-<li>Dados em HDFS ou banco de dados HBase</li>
-</ul>
-<p>Além da interface, a estrutura dos dados variará. Aqui estão alguns exemplos comuns:</p>
-<ul>
-<li>JSON de uma API REST</li>
-<li>Dados bem estruturados de um banco de dados MySQL</li>
-<li>JSON dentro de colunas de uma tabela de banco de dados MySQL</li>
-<li>Dados de log semiestruturados</li>
-<li>CSV, formato de largura fixa (FWF) e outros formatos de arquivos planos</li>
-<li>JSON em arquivos planos</li>
-<li>Saída de stream do Kafka</li>
-</ul>
-<p>Cada interface e estrutura de dados apresenta seus próprios desafios e oportunidades. Dados bem
-estruturados são frequentemente mais fáceis de trabalhar, mas geralmente são estruturados no
-interesse de um aplicativo ou site. Além da ingestão dos dados, etapas adicionais no pipeline
-provavelmente serão necessárias para limpar e transformar em uma estrutura em que os dados sejam
-reduzidos.</p>
-<p>Dados não estruturados são comuns para alguns empreendimentos analíticos. Por exemplo, modelos de
-Processamento de Linguagem Natural (Natural Language Processing - NLP) requerem grandes quantidades
-de dados de texto livre para treinar e validar. Projetos de Visão Computacional (Computer
-Vision - CV) requerem imagens e conteúdo de vídeo. Mesmo projetos menos assustadores, como a
-extração de dados de páginas da web, têm necessidade de dados de texto livre da web, além da
-marcação HTML semiestruturada de uma página da web.</p>
-<h2 id="volume-de-dados">Volume de Dados<a class="headerlink" href="#volume-de-dados" title="Permanent link">&para;</a></h2>
-<p>Embora engenheiros de dados e gerentes de contratação gostem de se gabar sobre conjuntos de dados
-em escala de petabytes, a realidade é que a maioria das organizações valoriza conjuntos de dados
-pequenos tanto quanto os grandes. Além disso, é comum ingerir e modelar pequenos e grandes conjuntos
-de dados em conjunto. Embora as decisões de design em cada etapa de um pipeline devam levar o volume
-de dados em consideração, alto volume não significa alto valor.</p>
-<p>Dito isso, a maioria das organizações tem pelo menos um conjunto de dados que é crucial tanto para
-as necessidades analíticas quanto para o alto volume. O que é <em>alto volume</em>? Não há uma definição
-fácil, mas no que diz respeito a pipelines, é melhor pensar em termos de um espectro, em vez de uma
-definição binária de conjuntos de dados de <em>alto</em> e <em>baixo</em> volume.</p>
-<h2 id="limpeza-e-validade-dos-dados">Limpeza e Validade dos Dados<a class="headerlink" href="#limpeza-e-validade-dos-dados" title="Permanent link">&para;</a></h2>
-<p>Assim como há grande diversidade nas fontes de dados, a qualidade dos dados de origem varia
-muito. Como diz o velho ditado, "lixo entra, lixo sai". É importante entender as limitações e
-deficiências dos dados de origem e abordá-las nas seções apropriadas do seu pipeline.</p>
-<p>Existem muitas características comuns de "dados bagunçados", incluindo, mas não limitadas a, as
+<p>Esses tipos de transformações estão totalmente desconectados da lógica de negócios ou, no caso de
+algo como mascarar dados sensíveis, às vezes são necessários o mais cedo possível em um pipeline
+por razões legais ou de segurança. Além disso, há valor em usar a ferramenta certa para o trabalho
+certo.</p>
+<p>Você pode assumir que os padrões relacionados ao ELT restantes são projetados para incluir o
+subpadrão EtLT também.</p>
+<h2 id="elt-para-analise-de-dados">ELT para Análise de Dados<a class="headerlink" href="#elt-para-analise-de-dados" title="Permanent link">&para;</a></h2>
+<p>Como já discutido, bancos de dados colunar são bem adequados para lidar com grandes volumes de
+dados. Eles também são projetados para lidar com tabelas largas, ou seja, tabelas com muitas
+colunas, graças ao fato de que apenas os dados nas colunas usadas em uma determinada consulta são
+escaneados no disco e carregados na memória.</p>
+<p>Além das considerações técnicas, os analistas de dados geralmente são fluentes em SQL. Com ELT, os
+engenheiros de dados podem se concentrar nas etapas de extração e carregamento em um pipeline
+(ingestão de dados), enquanto os analistas podem utilizar SQL para transformar os dados que foram
+ingeridos conforme necessário para relatórios e análises. Tal separação limpa não é possível com o
+padrão ETL, pois os engenheiros de dados são necessários em todo o pipeline.</p>
+<p>Além disso, o padrão ELT reduz a necessidade de prever exatamente o que os analistas farão com os
+dados no momento da construção do processo de extração e carregamento. Embora seja necessário
+entender o caso de uso geral para extrair e carregar os dados adequados, salvar a etapa de
+transformação para mais tarde dá aos analistas mais opções e flexibilidade.</p>
+<h2 id="elt-para-ciencia-de-dados">ELT para Ciência de Dados<a class="headerlink" href="#elt-para-ciencia-de-dados" title="Permanent link">&para;</a></h2>
+<p>Pipelines de dados construídos para equipes de ciência de dados são semelhantes aos construídos para
+análise de dados em um data warehouse. Assim como no caso de uso de análise, os engenheiros de dados
+estão focados em ingerir dados em um data warehouse ou data lake. No entanto, os cientistas de dados
+têm necessidades diferentes dos analistas de dados.</p>
+<p>Embora a ciência de dados seja um campo amplo, em geral, os cientistas de dados precisarão de acesso
+a dados mais granulares e, às vezes, brutos do que os analistas de dados. Enquanto os analistas de
+dados constroem modelos de dados que produzem métricas e alimentam dashboards, os cientistas de
+dados passam seus dias explorando dados e construindo modelos preditivos.</p>
+<p>Se você está construindo pipelines para apoiar cientistas de dados, descobrirá que as etapas de
+extração e carregamento do padrão ELT permanecerão praticamente as mesmas que para suportar
+análises.</p>
+<h2 id="elt-para-produtos-de-dados-e-aprendizado-de-maquina">ELT para Produtos de Dados e Aprendizado de Máquina<a class="headerlink" href="#elt-para-produtos-de-dados-e-aprendizado-de-maquina" title="Permanent link">&para;</a></h2>
+<p>Os dados são usados para mais do que análise, relatórios e modelos preditivos. Eles também são
+usados para alimentar <em>produtos de dados</em>. Alguns exemplos comuns de produtos de dados incluem os
 seguintes:</p>
 <ul>
-<li>Registros duplicados ou ambíguos</li>
-<li>Registros órfãos</li>
-<li>Registros incompletos ou ausentes</li>
-<li>Erros de codificação de texto</li>
-<li>Formatos inconsistentes (por exemplo, números de telefone com ou sem traços)</li>
-<li>Dados rotulados incorretamente ou sem rótulo</li>
+<li>Um mecanismo de recomendação de conteúdo que alimenta a tela inicial de um serviço de streaming de
+vídeo</li>
+<li>Um mecanismo de busca personalizado em um site de e-commerce</li>
+<li>Um aplicativo que realiza análise de sentimento em avaliações de restaurantes geradas por usuários</li>
 </ul>
-<p>Claro, existem inúmeras outras, bem como questões de validade dos dados específicas ao contexto do
-sistema de origem.</p>
-<h2 id="latencia-e-largura-de-banda-do-sistema-de-origem">Latência e Largura de Banda do Sistema de Origem<a class="headerlink" href="#latencia-e-largura-de-banda-do-sistema-de-origem" title="Permanent link">&para;</a></h2>
-<p>A necessidade de extrair frequentemente grandes volumes de dados dos sistemas de origem é um caso de
-uso comum em uma pilha de dados moderna. No entanto, isso apresenta desafios. As etapas de extração
-de dados nos pipelines devem lidar com limites de taxa de API, tempos de conexão esgotados,
-downloads lentos e proprietários de sistemas de origem que ficam insatisfeitos devido à carga
-colocada em seus sistemas.</p>
-<h2 id="data-warehouses-na-nuvem-e-data-lakes">Data Warehouses na Nuvem e Data Lakes<a class="headerlink" href="#data-warehouses-na-nuvem-e-data-lakes" title="Permanent link">&para;</a></h2>
-<p>Três coisas transformaram o cenário da análise e do armazenamento de dados nos últimos 10 anos, e
-todas estão relacionadas ao surgimento dos principais provedores de nuvem pública (Amazon, Google e
-Microsoft).</p>
-<ul>
-<li>A facilidade de construir e implantar pipelines de dados, data lakes, data warehouses e
-processamento analítico na nuvem. Não há mais necessidade de esperar pelos departamentos de TI e
-pela aprovação do orçamento para grandes custos iniciais. Serviços gerenciados -- bancos de dados em
-particular -- se tornaram comuns.</li>
-<li>A contínua queda nos custos de armazenamento na nuvem.</li>
-<li>O surgimento de bancos de dados colunar altamente escaláveis, como Amazon Redshift, Snowflake e
-Google Big Query.</li>
-</ul>
-<p>Um <em>data warehouse</em> é onde os dados de diferentes sistemas são armazenados e modelados para suportar
-análises e outras atividades relacionadas a responder perguntas com esses dados. Os dados em um
-armazém de dados são estruturados e otimizados para consultas de relatórios e análises.</p>
-<p>Um <em>data lake</em> é onde os dados são armazenados, mas sem a estrutura ou otimização de consulta de um
-armazém de dados. Ele provavelmente conterá um grande volume de dados, bem como uma variedade de
-tipos de dados. Por exemplo, um único data lake pode conter uma coleção de postagens de blog
-armazenadas como arquivos de texto, arquivos planos extraídos de um banco de dados relacional e
-objetos JSON contendo eventos gerados por sensores em um sistema industrial, embora não seja
-otimizado para consultar esses dados com o objetivo de relatórios e análises.</p>
-<p>Há um lugar para ambos, data warehouses e data lakes, no mesmo ecossistema de dados, e os pipelines
-de dados frequentemente movem dados entre ambos.</p>
-<h2 id="ferramentas-de-transformacao-e-modelagem-de-dados">Ferramentas de Transformação e Modelagem de Dados<a class="headerlink" href="#ferramentas-de-transformacao-e-modelagem-de-dados" title="Permanent link">&para;</a></h2>
-<p>Os termos <em>modelagem de dados</em> e <em>transformação de dados</em> são frequentemente usados de forma
-intercambiável.</p>
-<ul>
-<li>
-<p>Transformação de Dados: Transformar dados é um termo amplo que é representado pelo <em>T</em> em um
-processo <em>ETL</em> ou <em>ELT</em>. Uma transformação pode ser algo tão simples quanto converter um timestamp
-armazenado em uma tabela de um fuso horário para outro. Também pode ser uma operação mais complexa
-que cria uma nova métrica a partir de múltiplas colunas de origem que são agregadas e filtradas
-através de alguma lógica de negócios.</p>
-</li>
-<li>
-<p>Modelagem de Dados: A modelagem de dados é um tipo mais específico de transformação de dados. Um
-modelo de dados estrutura e define dados em um formato que é entendido e otimizado para análise de
-dados. Um modelo de dados é geralmente representado como uma ou mais tabelas em um armazém de dados.</p>
-</li>
-</ul>
-<p>Assim como a ingestão de dados, existem várias metodologias e ferramentas presentes em uma
-infraestrutura de dados moderna. Como mencionado anteriormente, algumas ferramentas de ingestão de
-dados fornecem algum nível de capacidades de transformação de dados, mas estas são frequentemente bastante
-simples. Por exemplo, para proteger <em>informações pessoalmente identificáveis (PII)</em>, pode ser
-desejável transformar um endereço de e-mail em um valor hash que é armazenado no destino final. Tal
-transformação é geralmente realizada durante o processo de ingestão.</p>
-<p>Para transformações de dados mais complexas e modelagem de dados, é desejável buscar ferramentas e
-frameworks especificamente projetados para a tarefa, como o dbt. Além disso, a transformação de
-dados é frequentemente específica ao contexto e pode ser escrita em uma linguagem familiar para
-engenheiros de dados e analistas de dados, como SQL ou Python.</p>
-<p>Modelos de dados que serão usados para análise e relatórios são tipicamente definidos e escritos em
-SQL ou através de interfaces de usuário de apontar e clicar. Assim como as considerações de
-construir versus comprar, há considerações ao escolher construir modelos usando SQL versus uma
-ferramenta <em>no-code</em>. SQL é uma linguagem altamente acessível que é comum tanto para engenheiros de
-dados quanto para analistas. Ela capacita os analistas a trabalhar diretamente com os dados e
-otimizar o design dos modelos para suas necessidades. Também é usada em quase todas as organizações,
-proporcionando um ponto de entrada familiar para novos contratados em uma equipe. Na maioria dos
-casos, escolher um framework de transformação que suporte a construção de modelos de dados em SQL em
-vez de interfaces de usuário de apontar e clicar é desejável. Você terá muito mais personalização e
-controle sobre seu processo de desenvolvimento de ponta a ponta.</p>
-<h2 id="plataformas-de-orquestracao-de-workflows">Plataformas de Orquestração de Workflows<a class="headerlink" href="#plataformas-de-orquestracao-de-workflows" title="Permanent link">&para;</a></h2>
-<p>À medida que a complexidade e o número de pipelines de dados em uma organização crescem, é
-importante introduzir uma <em>plataforma de orquestração de workflows</em> na sua infraestrutura de
-dados. Essas plataformas gerenciam o agendamento e o fluxo de tarefas em uma pipeline. Imagine uma
-pipeline com uma dúzia de tarefas que variam desde ingestões de dados escritas em Python até
-transformações de dados escritas em SQL que devem ser executadas em uma sequência específica e
-gerenciar dependências entre cada tarefa. Toda equipe de dados enfrenta esse desafio, mas felizmente
-existem várias plataformas de orquestração de workflows disponíveis para aliviar o problema.</p>
-<p>Algumas plataformas, como Apache Airflow, Luigi e AWS Glue, são projetadas para casos de uso mais
-gerais e, portanto, são usadas para uma ampla variedade de pipelines de dados. Outras, como Kubeflow
-Pipelines, são projetadas para casos de uso e plataformas mais específicos (workflows de aprendizado
-de máquina construídos em contêineres Docker no caso do Kubeflow Pipelines).</p>
-<h2 id="grafos-aciclicos-dirigidos-directed-acyclic-graphs">Grafos Acíclicos Dirigidos (Directed Acyclic Graphs)<a class="headerlink" href="#grafos-aciclicos-dirigidos-directed-acyclic-graphs" title="Permanent link">&para;</a></h2>
-<p>Quase todas as plataformas modernas de orquestração representam o fluxo e as dependências das
-tarefas em um pipeline como um grafo. No entanto, os grafos de pipelines têm algumas restrições
-específicas.</p>
-<p>Os grafos de pipelines também devem ser <em>acíclicos</em>, o que significa que uma tarefa não pode apontar
-de volta para uma tarefa previamente concluída. Em outras palavras, não pode haver ciclos. Se
-pudesse, então um pipeline poderia rodar indefinidamente!</p>
-<p>Com essas duas restrições em mente, os pipelines de orquestração produzem grafos chamados grafos
-acíclicos dirigidos (DAGs).</p>
-<p>DAGs são uma representação de um conjunto de tarefas e não onde a lógica das tarefas é definida. Uma
-plataforma de orquestração é capaz de executar tarefas de todos os tipos.</p>
-<p>A plataforma de orquestração executa cada tarefa, mas a lógica das tarefas existe como código SQL e
-Python, que roda em diferentes sistemas na infraestrutura de dados.</p>
-<h2 id="personalizando-sua-infraestrutura-de-dados">Personalizando Sua Infraestrutura de Dados<a class="headerlink" href="#personalizando-sua-infraestrutura-de-dados" title="Permanent link">&para;</a></h2>
-<p>É raro encontrar duas organizações com exatamente a mesma infraestrutura de dados. A maioria escolhe
-ferramentas e fornecedores que atendem às suas necessidades específicas e constrói o restante por
-conta própria.</p>
-<p>Como mencionado anteriormente, dependendo da cultura e dos recursos da sua organização, você pode
-ser incentivado a construir a maior parte da sua infraestrutura de dados por conta própria ou a
-depender de fornecedores SaaS. Independentemente de qual caminho você escolha na escala de construir
-versus comprar, você pode construir a infraestrutura de dados de alta qualidade necessária para
-criar pipelines de dados de alta qualidade.</p>
-<p>O que é importante é entender suas restrições (dinheiro, recursos de engenharia, segurança e
-tolerância ao risco legal) e as compensações resultantes.</p>
+<p>Cada um desses produtos de dados é provavelmente alimentado por um ou mais modelos de aprendizado de
+máquina (ML), que são ávidos por dados de treinamento e validação. Esses dados podem vir de uma
+variedade de sistemas de origem e passar por algum nível de transformação para prepará-los para uso
+no modelo. Um padrão semelhante ao ELT é bem adequado para tais necessidades, embora existam vários
+desafios específicos em todas as etapas de um pipeline projetado para um produto de dados.</p>
+<h2 id="etapas-em-um-pipeline-de-aprendizado-de-maquina">Etapas em um Pipeline de Aprendizado de Máquina<a class="headerlink" href="#etapas-em-um-pipeline-de-aprendizado-de-maquina" title="Permanent link">&para;</a></h2>
+<p>Assim como os pipelines construídos para análise, os pipelines construídos para ML seguem um padrão
+semelhante ao ELT -- pelo menos no início do pipeline. A diferença é que, em vez da etapa de
+transformação focar em transformar dados em modelos de dados, uma vez que os dados são extraídos e
+carregados em um warehouse ou data lake, há várias etapas envolvidas na construção e atualização do
+modelo de ML.</p>
+<p>Se você está familiarizado com o desenvolvimento de ML, essas etapas podem parecer familiares 
+ambém:</p>
+<p><em>Ingestão de dados</em><br />
+Embora os dados que você ingere possam diferir, a lógica permanece basicamente a mesma para
+pipelines construídos para análise, bem como para ML, mas com uma consideração adicional para
+pipelines de ML. Ou seja, garantir que os dados que você ingere sejam versionados de uma forma que
+os modelos de ML possam posteriormente se referir como um conjunto de dados específico para
+treinamento ou validação.</p>
+<p><em>Pré-processamento de dados</em><br />
+Os dados ingeridos provavelmente não estarão prontos para uso no desenvolvimento de
+ML. O pré-processamento é onde os dados são limpos e preparados para os modelos. Por exemplo, esta
+é a etapa em um pipeline onde o texto é tokenizado, os recursos são convertidos em valores numéricos
+e os valores de entrada são normalizados.</p>
+<p><em>Treinamento de modelo</em><br />
+Após novos dados serem ingeridos e pré-processados, os modelos de ML precisam ser re-treinados.</p>
+<p><em>Implementação de modelo</em><br />
+Implantar modelos em produção pode ser a parte mais desafiadora de passar de aprendizado de máquina
+orientado a pesquisa para um verdadeiro produto de dados. Aqui, não apenas a versionamento de
+conjuntos de dados é necessário, mas também a versionamento de modelos treinados. Frequentemente,
+uma API REST é usada para permitir a consulta de um modelo implantado, e endpoints de API para
+várias versões de um modelo serão usados. É muito para acompanhar e requer coordenação entre
+cientistas de dados, engenheiros de aprendizado de máquina e engenheiros de dados para chegar a um
+estado de produção. Um pipeline bem projetado é fundamental para unir tudo isso.</p>
+<h2 id="incorporar-feedback-no-pipeline">Incorporar Feedback no Pipeline<a class="headerlink" href="#incorporar-feedback-no-pipeline" title="Permanent link">&para;</a></h2>
+<p>Qualquer bom pipeline de ML também incluirá a coleta de feedback para melhorar o modelo. Tome como
+exemplo um modelo de recomendação de conteúdo para um serviço de streaming de vídeo. Para medir e
+melhorar o modelo no futuro, você precisará acompanhar o que ele recomenda aos usuários, quais
+recomendações eles clicam e qual conteúdo recomendado eles gostam após clicarem. Para fazer isso,
+você precisará trabalhar com a equipe de desenvolvimento que utiliza o modelo na tela inicial do
+serviço de streaming. Eles precisarão implementar algum tipo de coleta de eventos que acompanhe cada
+recomendação feita a cada usuário; a versão do modelo que a recomendou; e quando é clicada; e então
+levar esse clique para os dados que provavelmente já estão coletando relacionados ao consumo de
+conteúdo do usuário.</p>
+<p>Todas essas informações podem então ser ingeridas de volta no data warehouse e incorporadas em
+futuras versões do modelo, seja como dados de treinamento ou para serem analisadas e consideradas
+por um humano (talvez um cientista de dados) para inclusão em um futuro modelo ou experimento.</p>
+<p>Os analistas frequentemente serão encarregados de medir a eficácia dos modelos e construir
+dashboards para exibir métricas chave do modelo para a organização. Os stakeholders podem usar esses
+dashboards para entender quão eficazes vários modelos são para o negócio e para seus clientes.</p>
 
 
 
@@ -1035,7 +1124,7 @@ tolerância ao risco legal) e as compensações resultantes.</p>
       <nav class="md-footer__inner md-grid" aria-label="Rodapé" >
         
           
-          <a href="../01-introduction-to-data-pipelines/" class="md-footer__link md-footer__link--prev" aria-label="Anterior: Introdução a Pipelines de Dados">
+          <a href="../02-a-modern-data-infrastructure/" class="md-footer__link md-footer__link--prev" aria-label="Anterior: Uma Infraestrutura de Dados Moderna">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
@@ -1045,27 +1134,11 @@ tolerância ao risco legal) e as compensações resultantes.</p>
                 Anterior
               </span>
               <div class="md-ellipsis">
-                Introdução a Pipelines de Dados
+                Uma Infraestrutura de Dados Moderna
               </div>
             </div>
           </a>
         
-        
-          
-          <a href="../03-common-data-pipeline-patterns/" class="md-footer__link md-footer__link--next" aria-label="Próximo: Padrões Comuns de Pipeline de Dados">
-            <div class="md-footer__title">
-              <span class="md-footer__direction">
-                Próximo
-              </span>
-              <div class="md-ellipsis">
-                Padrões Comuns de Pipeline de Dados
-              </div>
-            </div>
-            <div class="md-footer__button md-icon">
-              
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
-            </div>
-          </a>
         
       </nav>
     

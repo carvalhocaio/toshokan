@@ -2,18 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://example.com/</loc>
-         <lastmod>2025-02-14</lastmod>
+         <lastmod>2025-02-17</lastmod>
     </url>
     <url>
          <loc>https://example.com/data_pipelines/</loc>
-         <lastmod>2025-02-14</lastmod>
+         <lastmod>2025-02-17</lastmod>
     </url>
     <url>
          <loc>https://example.com/data_pipelines/pocket_reference/01-introduction-to-data-pipelines/</loc>
-         <lastmod>2025-02-14</lastmod>
+         <lastmod>2025-02-17</lastmod>
     </url>
     <url>
          <loc>https://example.com/data_pipelines/pocket_reference/02-a-modern-data-infrastructure/</loc>
-         <lastmod>2025-02-14</lastmod>
+         <lastmod>2025-02-17</lastmod>
+    </url>
+    <url>
+         <loc>https://example.com/data_pipelines/pocket_reference/03-common-data-pipeline-patterns/</loc>
+         <lastmod>2025-02-17</lastmod>
     </url>
 </urlset>
