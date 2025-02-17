@@ -99,3 +99,4 @@ nav:
     - Pocket Reference:
       - Introdução a Pipelines de Dados: data_pipelines/pocket_reference/01-introduction-to-data-pipelines.md
       - Uma Infraestrutura de Dados Moderna: data_pipelines/pocket_reference/02-a-modern-data-infrastructure.md
+      - Padrões Comuns de Pipeline de Dados: data_pipelines/pocket_reference/03-common-data-pipeline-patterns.md
